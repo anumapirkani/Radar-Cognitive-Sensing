@@ -1,6 +1,13 @@
 %% Cognitive Radar Basic
 % Author: Dr Anum Pirkani
 
+% Copyright (c) 2025 Anum Pirkani 
+% All rights reserved.
+% Permission is hereby granted, without written agreement and without license or royalty fees, to use, copy, 
+% modify, and distribute this code (the source files) and its documentation for any purpose, provided that the 
+% copyright notice in its entirety appears in all copies of this code, and the source of this code, 
+% This should be acknowledged in any publication that reports research using this code.
+
 clear; clc; close all;
 rng(18);
 
@@ -314,4 +321,5 @@ function m = localMean(A, r0, d0, win)
     patch    = A(r1:r2, d1:d2);
     m        = mean(patch(:));
 end
+
 
